@@ -2,20 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply font-secondary text-[15px] leading-[28px] tracking-normal;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .h1-large {
+    @apply font-primary text-[72px] leading-[72px] tracking-[-.55px] text-secondary-sanJuanBlue;
+  }
+  .h1-small {
+    @apply font-primary text-[56px] leading-[56px] tracking-[-.43px] text-secondary-sanJuanBlue;
+  }
+  .h2 {
+    @apply font-primary text-[48px] leading-[56px] tracking-[-.37px] text-secondary-sanJuanBlue;
+  }
+  .h3-big {
+    @apply font-primary text-[32px] leading-[40px] tracking-[-.25px] text-secondary-sanJuanBlue;
+  }
+  .h3-small {
+    @apply font-secondary text-[18px] leading-[25px] tracking-[-.14px] text-secondary-sanJuanBlue;
+  }
+  .h4 {
+    @apply font-primary text-[24px] leading-[32px] tracking-[-.18px] text-secondary-sanJuanBlue;
+  }
 }

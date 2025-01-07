@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#ba4270",
+        secondary: {
+          sanJuanBlue: "#36536b",
+          mirageBlue: "#1b262f",
+          charmPink: "#da6d97",
+          sanJualBlueLight: "#6c8294",
+        },
+      },
+      fontFamily: {
+        primary: "var(--font-dm-serif-display)",
+        secondary: "var(--font-pubic-sans)",
       },
     },
   },
