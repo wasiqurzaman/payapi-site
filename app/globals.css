@@ -4,24 +4,24 @@
 
 @layer base {
   body {
-    @apply font-secondary text-[15px] leading-[28px] tracking-normal;
+    @apply font-secondary text-[15px] leading-[28px] tracking-normal bg-[#edf3f8];
   }
   .h1-large {
-    @apply font-primary text-[72px] leading-[72px] tracking-[-.55px] text-secondary-sanJuanBlue;
+    @apply font-primary text-[72px] leading-[72px] tracking-[-.55px] text-sanJuanBlue;
   }
   .h1-small {
-    @apply font-primary text-[56px] leading-[56px] tracking-[-.43px] text-secondary-sanJuanBlue;
+    @apply font-primary text-[56px] leading-[56px] tracking-[-.43px] text-sanJuanBlue;
   }
   .h2 {
-    @apply font-primary text-[48px] leading-[56px] tracking-[-.37px] text-secondary-sanJuanBlue;
+    @apply font-primary text-[48px] leading-[56px] tracking-[-.37px] text-sanJuanBlue;
   }
   .h3-big {
-    @apply font-primary text-[32px] leading-[40px] tracking-[-.25px] text-secondary-sanJuanBlue;
+    @apply font-primary text-[32px] leading-[40px] tracking-[-.25px] text-sanJuanBlue;
   }
   .h3-small {
-    @apply font-secondary text-[18px] leading-[25px] tracking-[-.14px] text-secondary-sanJuanBlue;
+    @apply font text-[18px] leading-[25px] tracking-[-.14px] text-sanJuanBlue;
   }
   .h4 {
-    @apply font-primary text-[24px] leading-[32px] tracking-[-.18px] text-secondary-sanJuanBlue;
+    @apply font-primary text-[24px] leading-[32px] tracking-[-.18px] text-sanJuanBlue;
   }
 }
