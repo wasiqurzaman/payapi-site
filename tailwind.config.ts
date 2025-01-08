@@ -20,6 +20,13 @@ export default {
         primary: "var(--font-dm-serif-display)",
         secondary: "var(--font-pubic-sans)",
       },
+      screens: {
+        sm: "480px",
+        tab: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
+      },
     },
   },
   plugins: [],

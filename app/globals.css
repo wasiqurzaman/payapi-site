@@ -9,7 +9,7 @@
   .h1-large {
     @apply font-primary text-[72px] leading-[72px] tracking-[-.55px] text-sanJuanBlue;
   }
-  .h1-small {
+  .h1-sm {
     @apply font-primary text-[56px] leading-[56px] tracking-[-.43px] text-sanJuanBlue;
   }
   .h2 {
@@ -18,8 +18,8 @@
   .h3-big {
     @apply font-primary text-[32px] leading-[40px] tracking-[-.25px] text-sanJuanBlue;
   }
-  .h3-small {
-    @apply font text-[18px] leading-[25px] tracking-[-.14px] text-sanJuanBlue;
+  .h3-sm {
+    @apply font-secondary text-[18px] font-bold leading-[25px] tracking-[-.14px] text-sanJuanBlue;
   }
   .h4 {
     @apply font-primary text-[24px] leading-[32px] tracking-[-.18px] text-sanJuanBlue;
