@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { DM_Serif_Display, Public_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
+import Image from "next/image";
+import Footer from "./components/Footer";
 
 const dmSerifDisplay = DM_Serif_Display({
   variable: "--font-dm-serif-display",
@@ -26,9 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSerifDisplay.variable} ${publicSans.variable} antialiased`}
+        className={`${dmSerifDisplay.variable} ${publicSans.variable} antialiased `}
       >
-        {children}
+        <main className="mx-auto  relative pt-[40px] overflow-hidden z-50">
+          <Header />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );

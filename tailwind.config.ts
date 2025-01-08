@@ -14,7 +14,7 @@ export default {
         sanJuanBlue: "#36536b",
         mirageBlue: "#1b262f",
         charmPink: "#da6d97",
-        sanJualBlueLight: "#6c8294",
+        sanJuanBlueLight: "#6c8294",
       },
       fontFamily: {
         primary: "var(--font-dm-serif-display)",
