@@ -27,6 +27,9 @@ export default {
         lg: "960px",
         xl: "1200px",
       },
+      backgroundImage: {
+        "pattern-circle": "url(/assets/shared/desktop/bg-pattern-circle.svg)",
+      },
     },
   },
   plugins: [],
