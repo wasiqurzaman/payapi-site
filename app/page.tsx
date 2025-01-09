@@ -5,30 +5,7 @@ import Ready from "./components/Ready";
 
 export default function Home() {
   return (
-    <div className="relative">
-      {/* <Image
-        src="/assets/shared/desktop/bg-pattern-circle.svg"
-        alt="circle"
-        width={1000}
-        height={1000}
-        className="absolute  right-[0] lg:right-[-300px] lg:top-[-200px] w-[1000px] top-[-300px] lg:h-[900px] lg:w-[850px]"
-      />
-      <svg
-        width="780"
-        height="780"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="absolute z-50 right-[50%] top-[-60%] translate-x-[50%] lg:hidden"
-      >
-        <defs>
-          <circle id="a" cx="390" cy="390" r="390" />
-          <circle id="b" cx="390" cy="390" r="390" />
-        </defs>
-        <g fill="#36536B" fillRule="evenodd" opacity=".15">
-          <use xlinkHref="#a" />
-          <use xlinkHref="#b" />
-        </g>
-      </svg> */}
+    <div className="relative bg-pattern-circle bg-no-repeat md:bg-[right_-20rem_top_-20rem] tab:bg-[center_top_-30rem]">
       <HeroSection />
       <section className=" bg-mirageBlue py-[88px] lg:py-[100px]">
         <div className="max-w-[1110px] mx-auto px-[24px] md:px-[40px] xl:px-0">
