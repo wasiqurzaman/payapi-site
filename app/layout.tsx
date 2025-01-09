@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { DM_Serif_Display, Public_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
-import Image from "next/image";
 import Footer from "./components/Footer";
 
 const dmSerifDisplay = DM_Serif_Display({
