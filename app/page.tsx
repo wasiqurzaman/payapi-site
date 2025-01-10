@@ -5,7 +5,7 @@ import Ready from "./components/Ready";
 
 export default function Home() {
   return (
-    <div className="relative bg-pattern-circle bg-no-repeat md:bg-[right_-20rem_top_-20rem] tab:bg-[center_top_-30rem]">
+    <div className="relative">
       <HeroSection />
       <section className=" bg-mirageBlue py-[88px] lg:py-[100px]">
         <div className="max-w-[1110px] mx-auto px-[24px] md:px-[40px] xl:px-0">
