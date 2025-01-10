@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ScheduleEmail from "./ScheduleEmail";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -11,7 +12,9 @@ export default function HeroSection() {
         <ScheduleEmail />
         <div className="text-sanJualBlueLight flex gap-2 pl-[27px] mt-4">
           <p>Have any questions?</p>
-          <span className="font-bold">Contact Us</span>
+          <span className="font-bold">
+            <Link href="/contact">Contact Us</Link>
+          </span>
         </div>
       </div>
       <div className="lg:flex-1 flex items-center justify-center order-first lg:order-none">
