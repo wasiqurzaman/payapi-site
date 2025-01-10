@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <form action="" className="flex-1 flex flex-col gap-[24px]">
+    <form action="" className="flex-1 flex flex-col gap-[28px]">
       <input
         type="text"
         placeholder="Name"
@@ -18,7 +18,7 @@ export default function ContactForm() {
       />
       <textarea
         placeholder="Message"
-        className="pb-[17px] px-[20px] bg-inherit border-b border-gray-400 outline-none"
+        className="pb-[17px] px-[20px] bg-inherit border-b border-gray-400 outline-none h-[100px]"
       ></textarea>
       <div className="flex gap-[26px] items-center">
         <input type="checkbox" name="" id="" className="bg-[#979797] w-6 h-6" />

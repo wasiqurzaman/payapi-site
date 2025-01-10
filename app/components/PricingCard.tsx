@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 interface Props {
   pricing: {
@@ -52,9 +53,7 @@ export default function PricingCard({ pricing }: Props) {
         ))}
       </ul>
       <hr className="h-px w-full sm:w-[75%] tab:w-full bg-[#979797] border border-slate-300" />
-      <button className="text-sanJuanBlue border-2 border-sanJuanBlue px-[32px] py-[14px] rounded-full font-bold text-nowrap">
-        Request Access
-      </button>
+      <Button variant="outline">Request Access</Button>
     </div>
   );
 }

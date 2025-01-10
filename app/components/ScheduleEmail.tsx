@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export default function ScheduleEmail() {
   return (
@@ -8,9 +9,7 @@ export default function ScheduleEmail() {
         placeholder="Enter email address"
         className="px-[27px] py-[14px] outline-none rounded-full placeholder:font-bold placeholder:text-sanJuanBlue/60 text-sanJuanBlue font-bold w-full sm:w-auto shrink"
       />
-      <button className="bg-primary text-linkWaterWhite py-[14px] px-[25px] rounded-full font-bold text-nowrap w-full sm:w-auto hover:bg-charmPink transition-colors duration-300">
-        Schedule a Demo
-      </button>
+      <Button variant="primary">Schedule a Demo</Button>
     </div>
   );
 }
